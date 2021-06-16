@@ -21,7 +21,7 @@ The indicators folder contains all the scripts required to conduct the analysis.
  - analysis.do
 
 ## Sources
-A detailed methodology can be accessed here (link)
+A detailed methodology can be accessed [here] (https://github.com/ONEcampaign/Lost-Potential-Tracker/blob/d4de8877f2648d3ef0be99ab2a4fc94d0f8d2216/documents/LPT_Methodology_en_v1.pdf)
 
 ## Contributors
 The research and analysis for this dashboard has been conducted by:
