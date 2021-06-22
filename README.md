@@ -4,7 +4,7 @@ This repository contains the data and scripts which power ONE's [Lost Potential 
 
 ## Repository structure and Information
 
-STATA version 15+ is needed in order to reproduce the analysis.  The analysis needs to be updated approximately once a year when new learning poverty data is available (*last updated in April 2021, next update due in September 2021*). Most of the analysis can be conducted automatically by running `.do` files. Updates to the model may require manually downloading new population data from UNDESA (when available).
+STATA version 15+ is needed in order to reproduce the analysis.  The analysis needs to be updated approximately once a year when new learning poverty data is available or when new UN Population estimates become available (*last updated in April 2021, next update due in September 2021 as new learning poverty data will be released by the World Bank*). Most of the analysis can be conducted automatically by running `.do` files. Updates to the model may require manually downloading new population data from UNDESA (when available).
 
 The repository includes the following subfolders:
  - Data
@@ -16,7 +16,7 @@ The repository includes the following subfolders:
  - Syntax
 
 ### Data
-The data folder contains the main output Excel document for this project: `LPT_data_and_sources_*date*.xlsx`.  This file contains a *Cover Sheet* explaining the document structure, different versions of the results (*LP BAU, SP BAU, etc*), tracking lost or secured potential, and information on education financing (which is infrequently updated and not part of the analysis stored on this repository).
+The data folder contains the main output Excel document for this project: `LPT_data_and_sources_*date*.xlsx`.  This file contains a *Cover Sheet* explaining the document structure, different versions of the results (*LP BAU, SP BAU, etc*), tracking lost or secured potential, and information on education financing (which will not need to be updated and not part of the analysis stored on this repository).
 
 ### Documents
 The documents folder contains the methodology (pdf and editable format) and other important documents for this project.
@@ -25,13 +25,13 @@ The documents folder contains the methodology (pdf and editable format) and othe
 The interim folder contains many `.dta` files, Stata's dataset format. These files are used and updated as needed when the analysis is executed. Generally, users should not need to access these files.
 
 ### Model
-The model folder contains an Excel file `LPC Financing - Methodology Tables and Summary - Final`, which enables a number of calculations on the impact of financing on learning poverty and related indicators. Users can use this file by modifying the rows highlighted in green on the *Summary* tab. Similar information is provided on the LPT website, but the Excel document allows for more granular control of the numbers.
+The model folder contains an Excel file `LPC Financing - Methodology Tables and Summary - Final`, which enables a number of calculations on the impact of financing on learning poverty and related indicators. Users can use this file by modifying the rows highlighted in green on the *Summary* tab. Similar information is provided on the LPT website, but the Excel document allows for more granular control of the numbers. Anyone can download this information from the LPT website by clicking on the "data and sources" link at the bottom.
 
 ### Outputs
 The outputs folder contains a number of tables which track trends over time for the overall countries under study, for countries by income level, by UN and World Bank regions, and according to their inclusion in the OECD Fragility Framework. 
 
 ### RawData
-This folder contains the raw population data `csv` files used in the analysis. When new estimates are available, they should be added to this folder. Note that the analysis uses the *medium variant* for projections. The anual population data must be downloaded for `Both Sexes`, `Male` and `Female`. 
+This folder contains the raw population data `csv` files used in the analysis. When new estimates are available, they should be added to this folder. Note that the analysis uses the *medium variant* for projections. The annual population data must be downloaded for `Both Sexes`, `Male` and `Female`. 
 
 ### Syntax
 The Syntax folder contains all of the Stata scripts required to conduct the analysis. It is organised in two folders:
@@ -63,7 +63,7 @@ There are two main steps to update the analysis:
  - Updating the Lost Potential Tracker website. For this it is important to coordinate with ONE's digital team and, when needed, with Teal - the agency which developed the site.
 
 ## Sources
-A detailed methodology can be accessed [here](https://github.com/ONEcampaign/Lost-Potential-Tracker/blob/main/documents/LPT_Methodology_en_v1.pdf)
+A detailed methodology can be accessed [here](https://github.com/ONEcampaign/Lost-Potential-Tracker/blob/main/documents/LPT_Methodology_en_v1.pdf). This is also available on the Lost Potential Tracker website.
 
 ## Contributors
 The research and analysis for this dashboard has been conducted by:
